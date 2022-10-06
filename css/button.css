@@ -1,4 +1,5 @@
 .button-anchor {
+    text-decoration: none;
     color: var(--button-foreground);
 }
 
@@ -64,6 +65,7 @@
 
     .button .button-img img {
         width: 3vw;
+        height: 3vw;
     }
 
     .button .button-content p {
@@ -74,14 +76,15 @@
 @media (max-width: 900px) {
 
     .button {
-        width: 100%;
         border-radius: 0.6vw;
         padding: 2vw;
         margin-top: 3vw;
+        width: 100%;
     }
 
     .button .button-img img {
         width: 9vw;
+        height: 9vw;
     }
 
     .button .button-content p {
