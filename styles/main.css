@@ -1,0 +1,30 @@
+:root {
+
+    /* Art Theme */
+    --background: #FFE8BE;
+    --foreground: #92693B;
+
+    --footer-foreground: #92693b5c;
+
+    --button-background: #FFE8BE;
+    --button-background-accent: #FFE8BE;
+    --button-foreground: #92693B;
+    --button-accent: #e2a959;
+
+    --shado-down:
+        1.2px 4.6px 5.3px rgba(0, 0, 0, 0.026),
+        2px 8px 10px rgba(0, 0, 0, 0.08);
+    --shadow-up:
+        0.3px 0.3px 0.3px rgba(0, 0, 0, 0.1),
+        0.7px 0.7px 0.7px rgba(0, 0, 0, 0.1),
+        1.3px 1.3px 1.3px rgba(0, 0, 0, 0.1),
+        2.2px 2.2px 2.2px rgba(0, 0, 0, 0.1),
+        4.2px 4.2px 4.2px rgba(0, 0, 0, 0.1),
+        10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+html {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Noto Sans';
+}
