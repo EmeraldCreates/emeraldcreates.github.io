@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.footer {
+    display: grid;
+    place-items: center;
+    margin: 6vw;
+}
+
+.footer p {
+    color: var(--footer-foreground);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.img {
+    display: grid;
+    place-items: center;
+}
+
+.img img {
+    background-color: var(--button-background);
+    width: 30vw;
+    transition: all 0.4s;
+    box-shadow: var(--shado-down);
+}
+
+.layout {
+    margin: 4vw;
+}
+
+.title {
+    margin: 3vh 0 5vh 0;
+    font-size: 3vw;
+    font-family: 'Amatic SC';
+}
+
+@media (max-width: 1500px) {
+    .title {
+        font-size: 4vw;
+    }
+
+    .img img {
+        width: 34vw;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .main {
+        display: block;
+    }
+
+    .img img {
+        object-fit: cover;
+        object-position: center;
+        margin-top: 10vh;
+        height: 32vh;
+        width: 100vw;
+    }
+
+    .img img {
+        border-radius: 0;
+    }
+
+    .img img:hover {
+        border-radius: 0;
+    }
+
+    .layout {
+        display: grid;
+        text-align: center;
+        place-items: center;
+    }
+
+    .title {
+        font-size: 14vw;
+    }
+
+    .footer {
+        margin-top: 15vh;
+    }
+}
