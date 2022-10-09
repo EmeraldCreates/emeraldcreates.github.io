@@ -1,0 +1,120 @@
+.button-anchor {
+    text-decoration: none;
+    color: var(--button-foreground);
+}
+
+.button-anchor:hover {
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: var(--button-background);
+    padding: 0.5vw;
+    margin-top: 1vw;
+    width: 20vw;
+    transition: all 0.4s;
+    box-shadow: var(--shadow-down);
+
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: solid 2px var(--foreground);
+}
+
+.button.lined1 {
+    border-top-left-radius: 200px 12px;
+    border-top-right-radius: 13px 205px;
+    border-bottom-right-radius: 202px 11px;
+    border-bottom-left-radius: 15px 204px;
+    border: solid 2px var(--foreground);
+}
+
+.button.lined2 {
+    border-top-left-radius: 6px 200px;
+    border-top-right-radius: 225px 10px;
+    border-bottom-right-radius: 10px 225px;
+    border-bottom-left-radius: 200px 15px;
+    border: solid 2px var(--foreground);
+}
+
+.button:hover {
+    background-color: var(--button-background-accent);
+    box-shadow: var(--shadow-up);
+}
+
+.button-anchor:hover .button .button-img svg {
+    fill: var(--button-accent);
+}
+
+.button-anchor:hover .button .button-content p {
+    color: var(--button-accent);
+}
+
+
+.button .button-img {
+    display: flex;
+    justify-items: center;
+}
+
+.button .button-img svg {
+    width: 1.8vw;
+    height: 1.8vw;
+    fill: var(--foreground);
+    transition: all 0.2s;
+}
+
+.button .button-content {
+    display: grid;
+    place-items: center;
+    margin: 0 20px 0 20px;
+    height: 100%;
+}
+
+.button .button-content p {
+    font-weight: 300;
+    font-size: 1.3vw;
+    transition: color 0.4s;
+    color: var(--button-foreground);
+}
+
+.button .button-content p:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+    .button {
+        padding: 1vw;
+        margin-top: 1vw;
+        width: 35vw;
+    }
+
+    .button .button-img svg {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .button .button-content p {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .button {
+        padding: 4vw;
+        margin-top: 4vw;
+        width: 90vw;
+    }
+
+    .button .button-img svg {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .button .button-content p {
+        font-size: 6vw;
+    }
+}
