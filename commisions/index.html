@@ -5,13 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
     <link rel="stylesheet" href="../styles/resetstyle.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/app.js"></script>
+    <script src="https://unpkg.com/external-svg-loader@latest/svg-loader.min.js" async></script>
     <title>Emerald Creates - Commisions</title>
 </head>
 
 <body>
 
+    <!-- This could easily be scripted for easier expansion -->
+
+    <div class="container">
+        <div class="stack">
+            <div class="wrapper">
+                <svg data-src="../res/glyphs/heart.svg" class="glyph"></svg>
+                <h1>Commisions <info name="state"></info>
+                </h1>
+                <svg data-src="../res/glyphs/heart.svg" class="glyph flip"></svg>
+            </div>
+            <h2 style="margin-top: 1.4vh;">@Emerald.Creates</h2>
+            <div class="wrapper img-box">
+                <art name="full-rendered" type="portrait"></art>
+                <art name="half-shaded-2" style="z-index: 1; margin: -6vw;"></art>
+                <art name="bust-shaded" type="bust-homepage"></art>
+            </div>
+            <hr>
+
+            <h1>Bust</h1>
+            <h3>(Head and shoulders)</h3>
+            <div class="wrapper" style="margin-top: 4vh;">
+                <div style="margin-right: 3vw;">
+                    <h1>line art</h1>
+                    <br>
+                    <price name="bust-lined"></price>
+                    <br><br>
+                    <art name="bust-lined" type="bust"></art>
+                </div>
+                <div style="margin-left: 3vw;">
+                    <h1>rendered</h1>
+                    <br>
+                    <price name="bust-render"></price>
+                    <br><br>
+                    <art name="bust-rendered" type="bust"></art>
+                </div>
+            </div>
+            <hr>
+
+            <h1>Full-Body</h1>
+            <div class="wrapper" style="margin-top: 4vh;">
+                <div style="margin-right: 3vw;">
+                    <h1>line art</h1>
+                    <br>
+                    <price name="full-lined"></price>
+                    <br><br>
+                    <art name="full-lined" type="portrait"></art>
+                </div>
+                <div style="margin-left: 3vw;">
+                    <h1>shaded</h1>
+                    <br>
+                    <price name="full-shaded"></price>
+                    <br><br>
+                    <art name="full-shaded" type="portrait"></art>
+                </div>
+            </div>
+            <hr>
+
+            <h1>Chibi</h1>
+            <div class="wrapper" style="margin-top: 4vh;">
+                <div style="margin-right: 3vw;">
+                    <h1>line art</h1>
+                    <br>
+                    <price name="chibi-lined"></price>
+                    <br><br>
+                    <art name="chibi-lined" type="layout"></art>
+                </div>
+                <div style="margin-left: 3vw;">
+                    <h1>shaded</h1>
+                    <br>
+                    <price name="chibi-shaded"></price>
+                    <br><br>
+                    <art name="chibi-shaded" type="bust"></art>
+                </div>
+            </div>
+            <hr>
+
+            <h1>B&W Sketch Busts</h1>
+            <div class="wrapper" style="margin-top: 4vh;">
+                <div style="margin-right: 3vw;">
+                    <price name="bwsketch"></price>
+                    <br><br>
+                    <art name="bwsketch" type="full"></art>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="footer">
+            <p>©
+                <script>document.write(new Date().getFullYear())</script> Emerald Creates
+            </p>
+            <div style="height: 10vh;"></div>
+        </div>
+    </div>
 </body>
 
 </html>

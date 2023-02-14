@@ -1,0 +1,90 @@
+html {
+    font-family: "Amatic SC";
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.stack {
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.img-box {
+    align-items: baseline;
+}
+
+/* Common Tags */
+
+h1 {
+    font-size: 5vw;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+hr {
+    background: var(--foreground);
+    height: 0.3vh;
+    border-radius: 60%;
+    border: none;
+    margin: 5vh 0;
+}
+
+/* Custom Tags */
+
+art img {
+    width: 25vw;
+}
+
+art .portrait {
+    width: 10vw;
+}
+
+art .bust {
+    width: 20vw;
+}
+
+art .bust-homepage {
+    width: 15vw;
+}
+
+art .layout {
+    margin-top: 5vh;
+    width: 25vw;
+}
+
+art .full {
+    width: 45vw;
+}
+
+.glyph {
+    width: 3vw;
+    margin: 0 1.4vw;
+    fill: var(--foreground);
+}
+
+.flip {
+    transform: rotate(180deg) scaleY(-1);
+}
