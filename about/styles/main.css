@@ -1,0 +1,8 @@
+html {
+    margin: 25px;
+}
+
+.emoji {
+    display: inline;
+    font-family: 'Noto Color Emoji';
+}
